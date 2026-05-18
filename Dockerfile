@@ -2,8 +2,8 @@
 
 # renovate: datasource=github-releases packageName=librenms/librenms versioning=semver
 ARG LIBRENMS_VERSION="26.4.1"
-ARG ALPINE_VERSION="3.22"
-ARG SYSLOGNG_VERSION="4.8.3-r1"
+ARG ALPINE_VERSION="3.23"
+ARG SYSLOGNG_VERSION="4.10.2-r1"
 
 FROM tianon/gosu:latest AS gosu
 
@@ -36,36 +36,36 @@ RUN apk --update --no-cache add \
     openssl \
     openssh-client \
     perl \
-    php83 \
-    php83-cli \
-    php83-ctype \
-    php83-curl \
-    php83-dom \
-    php83-fileinfo \
-    php83-fpm \
-    php83-gd \
-    php83-gmp \
-    php83-iconv \
-    php83-json \
-    php83-ldap \
-    php83-mbstring \
-    php83-mysqlnd \
-    php83-opcache \
-    php83-openssl \
-    php83-pdo \
-    php83-pdo_mysql \
-    php83-pecl-memcached \
-    php83-pear \
-    php83-phar \
-    php83-posix \
-    php83-session \
-    php83-simplexml \
-    php83-snmp \
-    php83-sockets \
-    php83-tokenizer \
-    php83-xml \
-    php83-xmlwriter \
-    php83-zip \
+    php84 \
+    php84-cli \
+    php84-ctype \
+    php84-curl \
+    php84-dom \
+    php84-fileinfo \
+    php84-fpm \
+    php84-gd \
+    php84-gmp \
+    php84-iconv \
+    php84-json \
+    php84-ldap \
+    php84-mbstring \
+    php84-mysqlnd \
+    php84-opcache \
+    php84-openssl \
+    php84-pdo \
+    php84-pdo_mysql \
+    php84-pecl-memcached \
+    php84-pear \
+    php84-phar \
+    php84-posix \
+    php84-session \
+    php84-simplexml \
+    php84-snmp \
+    php84-sockets \
+    php84-tokenizer \
+    php84-xml \
+    php84-xmlwriter \
+    php84-zip \
     python3 \
     py3-pip \
     rrdtool \
